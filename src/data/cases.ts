@@ -50,7 +50,7 @@ export const cases: CaseCard[] = names.map((name, index) => {
   };
 });
 
-export const rows: CaseCard[][] = [
+export const rows: [CaseCard[], CaseCard[], CaseCard[]] = [
   cases.slice(0, 12),
   cases.slice(12, 23),
   cases.slice(23, 34),
