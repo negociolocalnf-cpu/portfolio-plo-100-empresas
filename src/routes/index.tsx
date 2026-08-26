@@ -34,6 +34,12 @@ function Index() {
   return (
     <main className="bg-hero min-h-screen">
       <section className="mx-auto max-w-5xl px-6 pt-20 pb-10 text-center sm:pt-28">
+        <div className="mb-6 flex justify-center gap-1.5" aria-hidden="true">
+          <span className="h-2.5 w-2.5 rounded-full bg-[#4285F4]" />
+          <span className="h-2.5 w-2.5 rounded-full bg-[#EA4335]" />
+          <span className="h-2.5 w-2.5 rounded-full bg-[#F2B84B]" />
+          <span className="h-2.5 w-2.5 rounded-full bg-[#34A853]" />
+        </div>
         <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-1.5 text-xs font-semibold tracking-widest text-muted-foreground uppercase">
           Método P.L.O · Portfólio visual
         </span>

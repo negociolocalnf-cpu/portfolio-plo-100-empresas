@@ -10,7 +10,7 @@ export function CaseMarquee({ items, direction = "left", duration = 70 }: Props)
   const loop = [...items, ...items];
 
   return (
-    <div className="group relative overflow-hidden py-3">
+    <div className="marquee-fade group relative overflow-hidden py-3">
       <div
         className={`marquee-track flex w-max gap-4 ${
           direction === "left" ? "animate-marquee-left" : "animate-marquee-right"
