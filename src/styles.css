@@ -131,14 +131,12 @@
 
 @utility animate-marquee-left {
   animation: marquee-left var(--marquee-duration, 60s) linear infinite;
+  will-change: transform;
 }
 
 @utility animate-marquee-right {
   animation: marquee-right var(--marquee-duration, 60s) linear infinite;
-}
-
-.marquee-track:hover {
-  animation-play-state: paused;
+  will-change: transform;
 }
 
 .marquee-fade {
