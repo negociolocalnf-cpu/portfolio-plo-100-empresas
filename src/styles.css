@@ -143,18 +143,19 @@
   -webkit-mask-image: linear-gradient(
     to right,
     transparent 0,
-    black 60px,
-    black calc(100% - 60px),
+    black 12px,
+    black calc(100% - 12px),
     transparent 100%
   );
   mask-image: linear-gradient(
     to right,
     transparent 0,
-    black 60px,
-    black calc(100% - 60px),
+    black 12px,
+    black calc(100% - 12px),
     transparent 100%
   );
 }
+
 
 @media (prefers-reduced-motion: reduce) {
   .marquee-track {

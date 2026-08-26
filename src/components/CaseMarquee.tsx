@@ -33,7 +33,9 @@ export function CaseMarquee({ items, direction = "left", duration = 70 }: Props)
                       ? ""
                       : `Perfil no Google de ${item.name} gerenciado pelo Método P.L.O`
                   }
-                  loading="lazy"
+                  loading="eager"
+                  decoding="sync"
+                  fetchPriority="high"
                   draggable={false}
                   className="aspect-[4/5] w-full select-none object-cover"
                 />
